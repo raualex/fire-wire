@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Information.css';
 import fire from './Images/fire-placeholder-pic.jpeg'
 import camera from './Images/photo-camera.png'
+import cityData from './citydata.js'
 
 class Information extends Component {
   constructor() {
@@ -11,9 +12,8 @@ class Information extends Component {
       details: '',
       location: '',
       time: '',
-      suggestions: [ 'New York, NY', 'Portland, OR', 'Baltimore, MD', 'Denver, CO', 'Boston, MA' ]
+      suggestions: cityData.data
     }
-
   }
 
   handleChange = (event) => {
@@ -35,7 +35,7 @@ class Information extends Component {
         <h1 role='banner' className='info-title' >INFORMATION</h1>
         <img 
           src={fire} 
-          alt='Forest fire picture to upload' 
+          alt='Forest fire to upload' 
           className='fire-image' 
         />
         <div 
@@ -66,8 +66,8 @@ class Information extends Component {
           >
             { 
               Array.isArray(this.state.suggestions) && 
-              this.state.suggestions.map(city => {
-                return <option value={city}>{city}</option>
+              this.state.suggestions.map((city, index) => {
+                return <option key={Date.now() + index} value={city}>{city}</option>
               })}
           </select>
           <h4 className='sub-titles'>Time (optional)</h4>
