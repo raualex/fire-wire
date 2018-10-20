@@ -28,20 +28,20 @@ Our team was composed of Turing School of Software and Design students (Alex, Ci
 
 ###The Initial Design
 
-![The Initial Design](src/wireframe.png)
+![The Initial Design](wireframe.png)
 
 ###The Current App
 
 The Home Screen
 
-![The Home Screen](src/homescreen.png)
+![The Home Screen](homescreen.png)
 
 The Camera Screen
 
-![The Camera Screen](src/camerascreen.png)
+![The Camera Screen](camerascreen.png)
 
 The Submit Screen
 
-![The Submit Screen](src/submitscreen.png)
+![The Submit Screen](submitscreen.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
