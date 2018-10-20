@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import fireImg from './fire.png';
 import cameraImg from './photo-camera.png'
-import menu from './menu.png'
+import menu from './menu-1.png'
 import './App.css';
 
 class App extends Component {
