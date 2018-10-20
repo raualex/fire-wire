@@ -1,25 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-div{
+  /* background-color: rgba(26,49,89,.8); */
+  background-color: rgb(7, 28, 58, .8);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.header-menu{
+  border-bottom: 1px solid #071730;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: rgba(26,49,89,.3);
+}
+
+.menu-img{
+  margin: 1em 1em;
+  display: flex;
+  height: 40px;
+  width: 40px;
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.fire-img{
+  margin: 0 auto 1em auto;
+  height: 150px;
+  width: 150px;
+}
+
+.fire-dash{
+  color: #F9DF74;
+}
+
+.report-fire{
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  color: #EDAE49;
+  /* color: #EA2B1F; */
+}
+
+.camera-img{
+  height: 180px;
+  width: 160px;
+  margin: 0 auto;
+}
+
+.fire-title{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #EDAE49;
 }
 
 @keyframes App-logo-spin {
