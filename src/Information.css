@@ -1,0 +1,71 @@
+/*#1a3159 - dark blue*/
+/*#EA2B1F - red*/
+/*#F9DF74 - yellow*/
+
+.camera-icon {
+  height: 44px;
+  width: 44px;
+}
+
+.details-input {
+  height: 100px;
+  width: 254px
+}
+
+.fire-information-container {
+  align-items: center;
+  background-color: rgba(26,49,89,.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.fire-image {
+  border: solid 4px #EA2B1F;
+  height: 40%;
+  width: 80%;
+}
+
+.info-title {
+  color: orange;
+  margin: 0;
+  padding-bottom: 19.92px;
+  padding-top: 19.92px;
+}
+
+.location-list {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0%;
+  height: 23px;
+  width: 254px;
+}
+
+.retake-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 56%;
+}
+
+.retake-txt {
+  color: orange;
+}
+
+.submit-btn {
+  border: solid 2px #F9DF74;
+  display: block;
+  margin-bottom: 22%;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 11%;
+}
+
+.sub-titles {
+  color: #F9DF74;
+}
+
+.time-input {
+  width: 254px;
+}
