@@ -10,17 +10,24 @@ import Information from './Information.js';
 class App extends Component {
   render() {
     return (
-      <div className="main-div">
-      <header className="header-menu">
-        <img src={menu} className="menu-img"/>
-      </header>
-        <section className="home-container">
-        <h2 className="fire-title">FIRE<span className="fire-dash">-</span>WIRE</h2>
-        <img src={fireImg} className='fire-img'/>
-        <h2 className="report-fire">Report a Fire</h2>
-        <NavLink to='/information' className='nav' ><img src={cameraImg} className='camera-img'/></NavLink>
+      <div>
+        <Route exact path='/' render={({match}) => {
+          return (
+          <div className="main-div">
+            <header className="header-menu">
+              <img src={menu} className="menu-img"/>
+            </header>
+            <section className="home-container">
+              <h2 className="fire-title">FIRE<span className="fire-dash">-</span>WIRE</h2>
+              <img src={fireImg} className='fire-img'/>
+              <h2 className="report-fire">Report a Fire</h2>
+            <NavLink to='/information' className='nav' ><img src={cameraImg} className='camera-img'/></NavLink>
+            </section>
+            </div>
+            )
+          }}
+        />
         <Route exact path='/information' component={Information} />
-        </section>
       </div>
     );
   }
