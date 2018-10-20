@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
 
 .App {
   text-align: center;
 }
 
 .main-div{
-  /* background-color: rgba(26,49,89,.8); */
   background-color: rgb(7, 28, 58, .8);
   height: 100vh;
   display: flex;
@@ -37,7 +36,7 @@
 }
 
 .fire-img{
-  margin: 0 auto 1em auto;
+  margin: 0 auto 2em auto;
   height: 150px;
   width: 150px;
 }
@@ -47,10 +46,10 @@
 }
 
 .report-fire{
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
   color: #EDAE49;
-  /* color: #EA2B1F; */
+  margin-bottom: 1em;
 }
 
 .camera-img{
