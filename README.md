@@ -45,3 +45,12 @@ The Submit Screen
 ![The Submit Screen](submitscreen.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Original Contributors
+
+Jessica Erickson: [GitHub](https://github.com/Jessica-Erickson)<br>
+Tyler Hughes: [GitHub](https://github.com/JustAnOctopus)<br>
+Cierra Washington: [GitHub](https://github.com/cierrajw)<br>
+Alex Rau: [GitHub](https://github.com/raualex)<br>
+Anita Gaikwad: [GitHub](https://github.com/swesoc)<br>
+Mark Pearyer: [GitHub](https://github.com/marcusp619)
